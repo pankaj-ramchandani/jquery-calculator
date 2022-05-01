@@ -4,15 +4,25 @@
     margin: 0;
     padding: 0;
     font-size: 35px;
-    font-family: 'Obritron', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-image: radial-gradient(#161617, #58595b);
 }
 
 .calc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 324px;
     margin: auto;
     background-color: #39383d;
     padding: 20px;
     border-radius: 8px;
+    z-index: 1;
 }
 
 .calc-display {
